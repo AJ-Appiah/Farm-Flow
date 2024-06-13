@@ -6,7 +6,7 @@ body {
 }
 
 #logo {
-  width: 150px;
+  width: 200px;
 }
 
 nav {
@@ -16,6 +16,7 @@ nav {
   align-items: center;
   position: fixed;
   width: 90vw;
+  height: 10vh;
   z-index: 100;
   background-color: white;
 }
@@ -34,16 +35,17 @@ nav {
 }
 
 #nav-links a:hover {
-  color: #24853e;
+  color: #77b122;
 }
 
 #hero {
-  background-image: url(./assets/img/hero2.jpg);
+  background-image: url(./assets/img/again-hero.jpg);
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 
 }
 
@@ -56,13 +58,13 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 20px 20px 90px 20px;
-  /* padding-left: 100px; */
-  /* padding-right: 100px; */
-  /* margin-right: 150px; */
-  /* margin-left: 150px; */
+  padding: 20px 20px 90px 50px;
 }
+
+#hero-container {
+  width: 60%;
+}
+
 
 #hero1 {
   font-size: 48px;
@@ -70,20 +72,26 @@ nav {
 }
 
 #hero2 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   text-align: left;
 }
 
 .contact-button {
-  background-color: #3d9970;
+  background-color: #77b122;
   color: white;
   border: 200px;
-  padding: 20px 20px;
+  padding: 15px 15px;
   text-transform: uppercase;
   border-radius: 5px;
   font-size: 15px;
+  text-decoration: none;
+  line-height: 50px;
 }
+
+.contact-button:hover{
+  background-color: black;
+} 
 
 #about-us {
   width: 100vw;
@@ -102,6 +110,7 @@ width: 80%;
   display: flex;
   justify-content: center;
   column-gap: 100px;
+  margin-bottom: 100px;
 }
 #Five-icon p {
   font-size: 200px;
@@ -111,4 +120,104 @@ width: 80%;
 .two {
   display: flex;
   justify-content: center;
+  color: #77b122;
+}
+
+#about {
+  font-size: 14px;
+  color: #707070;
+}
+
+#our-story {
+  font-size: 36px;
+}
+
+#let-us {
+  color: #77b122;
+}
+
+#about-story {
+  /* margin-left: 130px;
+  line-height: 10px;
+ margin-bottom: 50px; */
+}
+
+#about-words {
+  /* margin: 0 0 16px; */
+ /* margin-left: 130px; */
+ font-size: 14px;
+ color: #707070;
+ line-height: 25px;
+ margin-bottom: 30px;
+ /* width: 50%; */
+}
+
+#main-aboutus {
+  margin-bottom: 100px;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-content: center;
+  padding: 4rem;
+  column-gap: 4rem;
+
+}
+
+.read-more {
+  margin-left: 130px;
+  background-color: #77b122;
+  color: white;
+  border: 200px;
+  padding: 15px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  /* margin-bottom: 100px; */
+}
+
+.read-more:hover{
+  /* color: black; */
+  background-color: black;
+}
+
+
+
+.about-vid {
+ width: 25vw;
+ height: 50vh;
+ /* position: relative; */
+}
+#video{
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  /* transform: translate(50px); */
+  /* transform: translateY(90px); */
+  border-radius: 50%; 
+}
+#vid-words{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#what-background {
+  background-image: url(./assets/img/what\ we\ do\ background.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#what-we-do{
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  column-gap: 4rem;
+}
+#we-do{
+  color: #707070;
+  font-size: 16px;
 }
