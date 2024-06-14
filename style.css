@@ -135,6 +135,9 @@ width: 80%;
 #let-us {
   color: #77b122;
 }
+#about-line{
+  line-height: 5px;
+  margin-bottom: 30px;}
 
 #about-story {
   /* margin-left: 130px;
@@ -214,10 +217,69 @@ width: 80%;
 #what-we-do{
   display: flex;
   justify-content: center;
-  padding: 4rem;
+  padding: 0 4rem 4rem 4rem ;
   column-gap: 4rem;
+  background-color: #f5f3f3;
+  height: 90vh;
+  width: 100%;
+  margin-bottom: 80px;
+  
 }
 #we-do{
   color: #707070;
   font-size: 16px;
 }
+#what-line{
+  line-height: 5px;
+  margin-bottom: 30px;
+}
+#our-product{
+  font-size: 36px;
+}
+#in-our-product{
+  color: #77b122
+}
+
+#background-what{ 
+}
+
+#what-we-do-paragraph{
+  font-size: 14px;
+  color: #707070;
+  line-height: 25px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+#items-we-do{
+  font-size: 14px;
+  color: #707070;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  /* margin-right: 15px ; */
+}
+.we-do-items{
+  display: flex;
+  column-gap: 50px;
+}
+
+.we-do-words-img{
+display: flex;
+justify-items: center;
+align-items: center;
+column-gap: 15px;
+
+}
+
+.we-do-words-img img{
+  width: 50px;
+  height: 50px;
+}
+
+.we-do-words-only{
+color: black;
+font-size: 20px;
+margin: 0;
+}
+
