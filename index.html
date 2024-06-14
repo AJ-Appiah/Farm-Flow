@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
 </head>
 
 <body>
@@ -60,8 +62,8 @@
             <h4>100% Natural</h4>
         </div>
         <div class="one">
-            <img class="two" src="./assets/img/Ab Icon4img.webp" alt="Farm Equipment">
-            <h4>Farm Equipment</h4>
+            <img class="two" src="./assets/img/Ab Icon4img.webp" alt="Right From Farm">
+            <h4>Right From Farm</h4>
         </div>
         <div>
             <img class="two" src="./assets/img/Ab Icon5img.webp" alt="Organic food">
@@ -155,18 +157,124 @@
             </div>
         </div>
     </section>
-    <section>
-        <div>
-            <p>FEATURED PRODUCTS</p>
-            <h2> <span>Our Product </span> Are Highest Quality</h2>
-            <img src="./assets/img/leaf.webp" alt="leaf img">
+    <section id="our-product-side">
+        <div id="product-height">
+            <div id="featured-products">
+                <p id="featured">FEATURED PRODUCTS</p>
+                <h2 id="our-p"> <span id="product">Our Product </span> Are Highest Quality</h2>
+                <img src="./assets/img/leaf.webp" alt="leaf img">
+            </div>
+        </div>
+        <section id="product-swiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./assets/img/eggs.jpg" alt="eggs basket">
+                    <p><a href="" class="products-img">Eggs</a></p>
+                    <h6 class="prices">Ghc5.99</h6>
+                </div>
+                  <div class="swiper-slide"><img src="./assets/img/fruit basket.jpg" alt="fruit basket">
+                    <a href="" class="products-img">Fruits</a>
+                    <h6 class="prices">Ghc10.99</h6></div>
+                  <div class="swiper-slide"><img src="./assets/img/new beef.jpg" alt="beef">
+                    <a href=""  class="products-img">beef</a>
+                    <h6 class="prices">Ghc15.99</h6></div>
+                  <div class="swiper-slide"><img src="./assets/img/new vegies.jpg" alt="veg">
+                    <a href="" class="products-img">Vegetable Basket</a>
+                    <h6 class="prices">Ghc20.99</h6></div>
+                  <div class="swiper-slide"><img src="./assets/img/chicken.jpg" alt="chicken">
+                    <a href="" class="products-img">Chicken</a>
+                    <h6 class="prices">Ghc8.99</h6></div>
+                  <div class="swiper-slide"> <img src="./assets/img/flowers.jpg" alt="flowers">
+                    <a href="" class="products-img">Cut Flowers</a>
+                    <h6 class="prices">Ghc30.65</h6></div>
+                  <div class="swiper-slide"><img src="./assets/img/honey.jpg" alt="honey">
+                    <a href="" class="products-img">Honey</a>
+                    <h6 class="prices">Ghc25.99</h6></div>
+                  <div class="swiper-slide"><img src="./assets/img/new milk.jpg" alt="milk">
+                    <a href="" class="products-img">Milk</a>
+                    <h6 class="prices">Ghc0.99</h6></div>
+                  <div class="swiper-slide"><img src="./assets/img/new rice.jpg" alt="Rice">
+                    <a href="" class="products-img">Rice</a>
+                    <h6 class="prices">Ghc3.99</h6></div>
+                  <div class="swiper-slide"><img src="./assets/img/Spices.jpg" alt="spices">
+                    <a href="" class="products-img">Spices</a>
+                    <h6 class="prices">Ghc11.99</h6></div>
+                </div>
+                <a href="" class="contact-button">GO TO STORE</a>
+        </section>
+        
+        <!-- <div id="ind-items">
+            <div>
+                <img src="./assets/img/eggs.jpg" alt="eggs basket">
+                <a href="">Eggs</a>
+                <h6>Ghc5.99</h6>
+            </div>
+            <div>
+                <img src="./assets/img/fruit basket.jpg" alt="fruit basket">
+                <a href="">Fruits</a>
+                <h6>Ghc10.99</h6>
+            </div>
+            <div>
+                <img src="./assets/img/new beef.jpg" alt="beef">
+                <a href="">beef</a>
+                <h6>Ghc15.99</h6>
+            </div>
+            <div>
+                <img src="./assets/img/new vegies.jpg" alt="veg">
+                <a href="">Vegetable Basket</a>
+                <h6>Ghc20.99</h6>
+            </div>
+            <div>
+                <img src="./assets/img/chicken.jpg" alt="chicken">
+                <a href="">Chicken</a>
+                <h6>Ghc8.99</h6>
+            </div>
+            <div>
+                <img src="./assets/img/flowers.jpg" alt="flowers">
+                <a href="">Cut Flowers</a>
+                <h6>Ghc30.65</h6>
+            </div>
+            <div>
+                <img src="./assets/img/honey.jpg" alt="honey">
+                <a href="">Honey</a>
+                <h6>Ghc25.99</h6>
+            </div>
+            <div>
+                <img src="./assets/img/new milk.jpg" alt="milk">
+                <a href="">Milk</a>
+                <h6>Ghc0.99</h6>
+            </div>
+            <div>
+                <img src="./assets/img/new rice.jpg" alt="Rice">
+                <a href="">Rice</a>
+                <h6>Ghc3.99</h6>
+            </div>
+            <div>
+                <img src="./assets/img/Spices.jpg" alt="spices">
+                <a href="">Spices</a>
+                <h6>Ghc11.99</h6>
+            </div> -->
         </div>
     </section>
-    <section>MAKE THE GREEN WORLD goes here</section>
-    <section>customer feedback goes here</section>
-    <section>CONTACT NOW goes here</section>
-    <section>innovation goes here</section>
+    <!-- <section>MAKE THE GREEN WORLD goes here</section>
+    <section>customer feedback goes here</section> -->
+    <section>
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2024 Farm Flow. All rights reserved.</p>
+                <ul class="footer-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
